@@ -26,4 +26,6 @@
 	<string name="none">None</string>
 	<string name="instructions">Make sure you enter a search phrase and a tag. Once you click the save your search will be stored along with your media type for that search.</string>
 	<string name="nothing">nothing</string>
+	<string name="query123">input your favorite website</string>
+	<string name="newWebsite">Here is your favorites:</string>
 </resources>

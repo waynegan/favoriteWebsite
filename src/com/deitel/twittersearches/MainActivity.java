@@ -51,7 +51,7 @@ public class MainActivity extends ListActivity
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_main);
 
-      radioSearchType = (RadioGroup) findViewById(R.id.radioSearchType);
+      
       
       // get references to the EditTexts  
       queryEditText = (EditText) findViewById(R.id.queryEditText);

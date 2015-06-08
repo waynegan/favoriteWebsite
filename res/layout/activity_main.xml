@@ -15,7 +15,7 @@
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_gravity="fill_horizontal"
-        android:hint="@string/queryPrompt"
+        android:hint="@string/query123"
         android:imeOptions="actionNext" >
          
         <requestFocus/>
@@ -42,39 +42,6 @@
     </LinearLayout>
 
     <LinearLayout android:layout_gravity="fill_horizontal" >
-
-        <RadioGroup
-            android:id="@+id/radioSearchType"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal" >
-        
-        <RadioButton
-            android:id="@+id/videoRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/videos" />
-
-        <RadioButton
-            android:id="@+id/linkRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/links" />
-
-        <RadioButton
-            android:id="@+id/imageRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/images" />
-
-        <RadioButton
-            android:id="@+id/noneRadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="93dp"
-            android:checked="true"
-            android:text="@string/nothing" />
-
-        </RadioGroup>
     </LinearLayout>
 
     <LinearLayout
@@ -93,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:gravity="center_horizontal"
-            android:text="@string/taggedSearches"
+            android:text="@string/newWebsite"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <ListView
